@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6); }
+  .mask .parents {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .mask .parents .dl, .mask .parents .select, .mask .parents .notice {
+      background: url(../images/mask_bg.png);
+      background-size: cover;
+      width: 481px;
+      height: 460px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; }
+      .mask .parents .dl h2, .mask .parents .select h2, .mask .parents .notice h2 {
+        width: 100%;
+        text-align: center;
+        font: 34px/88px "微软雅黑";
+        color: #c59900;
+        height: 88px; }
+        .mask .parents .dl h2 span, .mask .parents .select h2 span, .mask .parents .notice h2 span {
+          display: inline-block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          height: 88px;
+          width: 80px;
+          cursor: pointer; }
+          .mask .parents .dl h2 span img, .mask .parents .select h2 span img, .mask .parents .notice h2 span img {
+            height: 27px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 17px;
+            margin: auto; }
+      .mask .parents .dl .pers, .mask .parents .select .pers, .mask .parents .notice .pers {
+        padding-left: 33px; }
+        .mask .parents .dl .pers h3, .mask .parents .select .pers h3, .mask .parents .notice .pers h3 {
+          position: relative; }
+          .mask .parents .dl .pers h3 label, .mask .parents .select .pers h3 label, .mask .parents .notice .pers h3 label {
+            width: 98px;
+            font: 24px/56px "微软雅黑";
+            color: #333; }
+            .mask .parents .dl .pers h3 label span, .mask .parents .select .pers h3 label span, .mask .parents .notice .pers h3 label span {
+              padding-left: 17px; }
+          .mask .parents .dl .pers h3 input, .mask .parents .dl .pers h3 select, .mask .parents .select .pers h3 input, .mask .parents .select .pers h3 select, .mask .parents .notice .pers h3 input, .mask .parents .notice .pers h3 select {
+            font: 15px/54px "微软雅黑";
+            color: #c59900;
+            width: 288px;
+            padding-left: 18px;
+            height: 50px;
+            background: #ffffff;
+            border: 2px solid transparent; }
+          .mask .parents .dl .pers h3 .yzm, .mask .parents .select .pers h3 .yzm, .mask .parents .notice .pers h3 .yzm {
+            width: 167px; }
+          .mask .parents .dl .pers h3 a, .mask .parents .select .pers h3 a, .mask .parents .notice .pers h3 a {
+            display: block;
+            width: 115px;
+            height: 54px;
+            left: 10px;
+            position: relative; }
+            .mask .parents .dl .pers h3 a img, .mask .parents .select .pers h3 a img, .mask .parents .notice .pers h3 a img {
+              height: 35px;
+              position: absolute;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              top: 0;
+              margin: auto; }
+          .mask .parents .dl .pers h3 select, .mask .parents .select .pers h3 select, .mask .parents .notice .pers h3 select {
+            width: 298px;
+            cursor: pointer; }
+          .mask .parents .dl .pers h3 .zhezhao, .mask .parents .select .pers h3 .zhezhao, .mask .parents .notice .pers h3 .zhezhao {
+            background: url(../images/secect_sanjiao.png) no-repeat center;
+            background-size: cover;
+            width: 55px;
+            height: 50px;
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            right: 66px;
+            pointer-events: none; }
+        .mask .parents .dl .pers h4, .mask .parents .select .pers h4, .mask .parents .notice .pers h4 {
+          padding-left: 117px;
+          font: 16px/32px "微软雅黑";
+          color: #df2a2f;
+          height: 32px; }
+      .mask .parents .dl p, .mask .parents .select p, .mask .parents .notice p {
+        width: 185px;
+        margin: 0 auto; }
+        .mask .parents .dl p a, .mask .parents .select p a, .mask .parents .notice p a {
+          display: block;
+          width: 185px;
+          margin: 0 auto;
+          font: 29px/70px "微软雅黑";
+          color: #fff;
+          text-align: center;
+          background: url(../images/mask_ljdl.png) no-repeat center;
+          background-size: cover; }
+    .mask .parents .select {
+      width: 472px;
+      height: 372px;
+      background: url(../images/mask_select_bg.png) no-repeat center;
+      background-size: cover; }
+      .mask .parents .select h3 input {
+        width: 276px !important; }
+    .mask .parents .notice {
+      width: 472px;
+      height: 372px;
+      background: url(../images/mask_select_bg.png) no-repeat center;
+      background-size: cover; }
+      .mask .parents .notice h2 {
+        width: 100%;
+        height: 88px;
+        text-align: center; }
+        .mask .parents .notice h2 span {
+          cursor: pointer; }
+          .mask .parents .notice h2 span img {
+            height: 27px; }
+      .mask .parents .notice p {
+        width: 185px;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 38.5px;
+        left: 0;
+        right: 0; }
+      .mask .parents .notice .clipboard {
+        width: 180px;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 38.5px;
+        left: 0;
+        right: 0; }
+        .mask .parents .notice .clipboard h6 {
+          width: 180px;
+          margin: 0 auto;
+          font: 16px/40px "微软雅黑";
+          color: #fff;
+          text-align: center;
+          background: url(../images/dl_bg.png) no-repeat center;
+          background-size: cover; }
+      .mask .parents .notice h5 {
+        font: 16px/30px "微软雅黑";
+        width: 90%;
+        margin: 0 auto;
+        color: #c59900;
+        text-align: center; }
+        .mask .parents .notice h5 span {
+          color: darkred;
+          margin: 0 15px; }

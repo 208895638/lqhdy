@@ -1,0 +1,305 @@
+#rocket-to-top{
+    background: url("../images/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+    cursor: default;
+    display: block;
+    height: 250px;
+    margin: -125px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 80%;
+    width: 149px;
+    z-index: 11;
+    div{
+        left: 0;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        width: 149px;
+    }
+    .level-2{
+        background: url("../images/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
+        display: none;
+        height: 250px;
+        opacity: 0;
+        z-index: 1;
+    }
+    .level-3{
+        background: none repeat scroll 0 0 transparent;
+        cursor: pointer;
+        display: block;
+        height: 150px;
+        z-index: 2;
+    }
+}
+body,html{
+    background: #03182b;
+    min-width: 1200px;
+    width: 100%;
+    height:100%;
+}
+.kl{
+    width: 100%;
+    height:4503px;
+    background: url(../images/lq_bg.png) no-repeat center top;
+    background-size:1932px ;
+    position: relative;
+    
+    .top{
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 720px;
+        height:328px;
+        text-align: center;
+        .logo{
+            width: 100%;
+            position: absolute;
+            top:46px;
+            left:0;
+            h4{
+                font:18px/110px "微软雅黑";
+                color: #fff6d3;
+                a{
+                    color: #fff6d3;
+                    margin:0 10px;
+                }
+            }
+        }
+        ul{
+           
+            display: inline-block;
+            li{
+                width: 246px;
+                height:89px;
+                p{
+                    width: 246px;
+                    height:89px;
+                }
+                .gw{
+                    background: url(../images/lq_gw.png) no-repeat center;
+                    background-size:cover;
+                }
+                .gw:hover{
+                    background: url(../images/lq_gw_hover.png) no-repeat center;
+                    background-size:cover;
+                }
+                .login{
+                    background: url(../images/lq_dl.png) no-repeat center;
+                    background-size:cover;
+                }
+                .login:hover{
+                   background: url(../images/lq_dl_hover.png) no-repeat center;
+                    background-size:cover; 
+                }
+                .register{
+                    background: url(../images/tchover.jpg) no-repeat center;
+                    background-size:cover;
+                }
+                .register:hover{
+                    background: url(../images/lq_tc.png) no-repeat center;
+                    background-size:cover;
+                }
+            }
+            .logins{
+            }
+        }
+        h3{
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            font:24px/40px "微软雅黑";
+            color: #0c2249;
+            top:832px;
+            transform: rotate(-3deg);
+        }
+    }
+    .center{
+        width: 1192px;
+        margin:-170px auto;
+        border:4px solid #ffecaa;
+        padding-top: 38px;
+        padding-bottom: 50px;
+        h2{
+            width: 1200px;
+            img{
+                height:60px;
+                padding:39px 0;
+                margin:0 auto;
+            }
+        }
+        h3{
+            font-size: 24px;
+            color: #ac9f8f;
+            text-align: center;
+            margin-bottom: 19px;
+        }
+        .content{
+            width: 1200px;
+            .per{
+                width: 1200px;
+                position: relative;
+                h4{
+                    text-align: center;
+                    font:34px/124px "微软雅黑";
+                    color: #ac9f8f;
+                    width: 1200px;
+                    span{
+                        color: #f9db85;
+                        font-size: 38px;
+                    }
+                }
+                .con{
+                    width: 1200px;
+                    text-align: center;
+//                  vertical-align: top;
+                    font-size: 0;
+                    dl,p{
+                        display: inline-block;
+                    }
+                    p{
+                        height:176px;
+                        width: 50px;
+                        text-align: center;
+                        line-height: 176px;
+                        color: #fbc76d;
+                        font-size: 34px;
+                        vertical-align: top;
+                    }
+                    dl{
+                        vertical-align: top;
+                        dt{
+                            width: 176px;
+                            height:176px;
+                            position: relative;
+                            background: url(../images/lq_hd_bg.png) no-repeat center;
+                            background-size: cover;
+                            margin-bottom: 8px;
+                            img{
+                                width: 98px;
+                                position: absolute;
+                                left:0;
+                                top:0;
+                                bottom: 0;
+                                right:0;
+                                margin:auto;
+                            }
+                        }
+                        dd{
+                            font:24px/28px "微软雅黑";
+                            color: #d8cbb9;
+                        }
+                        .small{
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .lingqu{
+                    width: 200px;
+                    height:65px;
+                    margin:30px auto;
+                    .lq{
+                        a{
+                            display: block;
+                            width: 200px;
+                            height:65px;                           
+                            background: url(../images/lqhover.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                    }
+                    .lq:hover{
+                        a{
+                            background: url(../images/lq_lq.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                    }
+                    .disabled{
+                        a{
+                            display: block;
+                            width: 200px;
+                            height:65px;                           
+                            background: url(../images/lq_ylq.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                    }
+                    
+                }
+//              .lingqu:hover .lq a{
+//                  background: url(../images/djlq_hover.png) no-repeat center;
+//                  background-size:cover ;
+//              }
+                .zjlb,.gjlb{
+                    position: absolute;
+                    left:0;
+                    top:-70px;
+                    text-align: center;
+                    background: #03182b;
+                    padding:18px;
+                    border:3px solid #fdd177;
+                    dl{
+                        display: inline-block;
+                        margin:0 18px;
+                        dt{
+                            width: 95px;
+                            height:95px;
+                            img{
+                                width: 95px;
+                            }
+                        }
+                        dd{
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .zjlb{
+                    left:110px;
+                }
+                .gjlb{
+                    left:159px;
+                }
+                .zjlb:after, .gjlb:after{
+                    border: solid transparent;
+                    content: ' ';
+                    height: 0;
+                    top: 100%;
+                    position: absolute;
+                    width: 0;
+                }
+        
+                .zjlb:after,.gjlb:after {
+                    border-width: 10px;
+                    border-top-color: #fdd177;
+                    left: 0;
+                    right:0;
+                    margin: 0 auto;
+                }
+        
+            }
+        }
+    }
+    .bottom{
+        width: 1200px;
+        margin:0 auto;
+        margin-top: 200px;
+        h2{
+            padding:26px;
+            img{
+                height:60px;
+                margin:0 auto;
+            }
+        }
+        ul{
+            li{
+                font:38px/68px "微软雅黑";
+                color: #b9babd;
+                span{
+                    color: #ff0505;
+                }
+            }
+        }
+    }
+}
+

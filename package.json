@@ -1,0 +1,25 @@
+{
+  "name": "kuanglie",
+  "version": "1.0.0",
+  "description": "狂猎活动页",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/208895638/kuanglie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/208895638/kuanglie/issues"
+  },
+  "homepage": "https://github.com/208895638/kuanglie#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
