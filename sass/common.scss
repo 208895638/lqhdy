@@ -160,19 +160,20 @@
                     right: 0;
             }
             .clipboard{
-                width: 180px;
+                width: 185px;
                 margin: 0 auto;
                 position: absolute;
                 bottom: 38.5px;
                 left: 0;
                 right: 0;
+                cursor: pointer;
                 h6{
-                    width: 180px;
+                    width: 185px;
                     margin: 0 auto;
-                    font: 16px/40px "微软雅黑";
+                    font: 20px/70px "微软雅黑";
                     color: #fff;
                     text-align: center;
-                    background: url(../images/dl_bg.png) no-repeat center;
+                    background: url(../images/mask_ljdl.png) no-repeat center;
                     background-size: cover;
                 }
             }
